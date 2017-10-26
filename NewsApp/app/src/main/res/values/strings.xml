@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">News Arena</string>
+    <string name="sample_headline">Politicians cant seek votes in name of caste and religion: Supreme Court</string>
+    <string name="No_data">Unable To Connect...Swipe Down To Refresh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="search_hint">Search For News</string>
+    <string name="API_KEY">9ed4c115b5644fb39be3bbc79c1a86f5</string>
+</resources>
