@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_centerInParent="true"
-        tools:src = "@drawable/katy"
+        tools:src = "@drawable/placeholder"
         android:id = "@+id/ddit"
         android:scaleType="fitXY"
         />

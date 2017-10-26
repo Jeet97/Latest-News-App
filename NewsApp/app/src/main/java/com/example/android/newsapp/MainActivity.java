@@ -4,8 +4,6 @@ import android.annotation.TargetApi;
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -18,8 +16,6 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
     Toolbar tb;
-    ConnectivityManager cm;
-    NetworkInfo ni;
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

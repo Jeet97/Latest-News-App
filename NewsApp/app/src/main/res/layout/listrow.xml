@@ -34,7 +34,7 @@ android:id = "@+id/cardview"
                 android:id="@+id/headimage"
                 android:scaleType="fitXY"
                 android:padding = "15dp"
-                tools:src = "@drawable/john"
+                tools:src = "@drawable/placeholder"
                 />
 
 

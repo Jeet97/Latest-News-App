@@ -29,7 +29,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/customheadimage"
                 android:scaleType="fitXY"
-                tools:src = "@drawable/supreme"
+                tools:src = "@drawable/placeholder"
                 />
 
 

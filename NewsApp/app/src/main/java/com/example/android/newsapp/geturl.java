@@ -3,14 +3,11 @@ package com.example.android.newsapp;
 import android.content.Context;
 import android.net.Uri;
 
-import java.util.ArrayList;
-
 /**
  * Created by Jeet on 05-01-2017.
  */
 
 public class geturl  {
-    static ArrayList<supplyclass> alllist = new ArrayList<supplyclass>();
 
     static String arr[] =
             {

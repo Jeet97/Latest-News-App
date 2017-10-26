@@ -1,7 +1,6 @@
 package com.example.android.newsapp;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Environment;
 import android.widget.Toast;
@@ -19,11 +18,7 @@ import java.net.URL;
 
 public class SaveWallpaperAsync extends AsyncTask<String, String, String> {
     private Context context;
-    String image_url;
-    URL ImageUrl;
-    String filename;
-    String myFileUrl1;
-    Bitmap bmImg = null;
+
 
     public SaveWallpaperAsync(Context context) {
 
