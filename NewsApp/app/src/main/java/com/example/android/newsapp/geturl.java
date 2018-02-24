@@ -42,6 +42,7 @@ public class geturl  {
 
 
     String mainurl = "https://newsapi.org/v1/articles?";
+    String searchurl = "https://newsapi.org/v2/everything?";
 
     public String getpreferences(int source,Context cxt)
     {
@@ -60,5 +61,21 @@ public class geturl  {
         return bl.toString();
     }
 
+    public String getsearchpreferences(String query,Context cxt)
+    {
+
+
+        Uri base = Uri.parse(searchurl);
+
+
+        Uri.Builder bl = base.buildUpon();
+
+        bl.appendQueryParameter("q", query);
+        bl.appendQueryParameter("sortBy", "relevence");
+        bl.appendQueryParameter("apiKey", cxt.getResources().getString(R.string.API_KEY));
+
+
+        return bl.toString();
+    }
 
 }
