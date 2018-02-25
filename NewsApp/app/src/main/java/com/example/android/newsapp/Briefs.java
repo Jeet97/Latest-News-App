@@ -22,7 +22,7 @@ FlipView fp;
 
 
     FlipAdapter fla;
-String mainurl = "https://newsapi.org/v1/articles?source=the-times-of-india&sortBy=latest&apiKey=";
+String mainurl = "https://newsapi.org/v2/top-headlines?sources=mtv-news&apiKey=";
     public Briefs() {
         // Required empty public constructor
     }

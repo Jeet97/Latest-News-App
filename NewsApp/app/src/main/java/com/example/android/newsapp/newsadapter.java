@@ -143,8 +143,15 @@ int type = getItemViewType(position);
 
                 default:
                     holder.headline.setText(sp.getHeadline());
-                    Picasso.with(cxt).load(sp.getUrl()).placeholder(R.drawable.placeholder).fit().into(holder.headimagev);
 
+                    try {
+                        Picasso.with(cxt).load(sp.getUrl()).placeholder(R.drawable.placeholder).fit().into(holder.headimagev);
+                    }
+
+                    catch (IllegalArgumentException i)
+                    {
+                        i.printStackTrace();
+                    }
 
 
         }

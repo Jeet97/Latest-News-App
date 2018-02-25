@@ -36,7 +36,7 @@ public class Top extends Fragment implements SwipeRefreshLayout.OnRefreshListene
     NetworkInfo ni;
     private newsadapter madapter;
     private RecyclerView.LayoutManager lm;
-    private String mainurl = "https://newsapi.org/v1/articles?source=the-times-of-india&sortBy=top&apiKey=";
+    private String mainurl = "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=";
 
     public Top() {
         // Required empty public constructor

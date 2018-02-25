@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class fragadapter extends FragmentPagerAdapter {
-    public CharSequence names[] = {"Topics","Latest","Top","Briefs"};
+    public CharSequence names[] = {"India","World","MTV","Others"};
 
 
 
@@ -22,16 +22,16 @@ public class fragadapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position==0)
-            return new Others();
+            return new Latest();
 
         else if(position==1)
-            return  new Latest();
-
-        else if (position==2)
             return  new Top();
 
+        else if (position==2)
+            return  new Briefs();
+
         else
-            return new Briefs();
+            return new Others();
     }
 
 

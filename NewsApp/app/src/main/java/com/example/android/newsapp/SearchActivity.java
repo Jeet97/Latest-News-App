@@ -12,6 +12,7 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -75,6 +76,8 @@ public class SearchActivity extends AppCompatActivity implements SwipeRefreshLay
     @Override
     public Loader<ArrayList<supplyclass>> onCreateLoader(int i, Bundle bundle) {
         geturl gt = new geturl();
+
+       Log.v("this is url",gt.getsearchpreferences(query,this)) ;
         return new newsloader(this,gt.getsearchpreferences(query,this),activity);
     }
 
